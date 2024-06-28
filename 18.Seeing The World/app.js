@@ -1,0 +1,13 @@
+"use strict";
+let places = ["Makkah", "Madinah", "Turkey", "Switzerland", "London"];
+console.log(`Orginal : ` + [places]);
+console.log(`Alphabatical Order : ` + [...places].sort());
+console.log(`Orginal Order : ` + [places]);
+console.log(`Reverse Alphabetical Order : ` + [...places].sort().reverse());
+console.log(`Orginal Order Again : ` + [places]);
+console.log(`Reverse Alphabetical Order : ` + [...places].sort().reverse());
+console.log(`Reverse Again Alphabetical Order To Original Order : ` + [places].sort());
+let changedPlaces = ["London", "Madinah", "Madinah", "Switzerland", "Turkey"];
+console.log(`Order Has Been Changed : ` + [changedPlaces]);
+let rerverseChangedPlaces = ["Makkah", "Madinah", "Turkey", "Switzerland", "London"];
+console.log(`Order Has Changed : ` + [rerverseChangedPlaces]);
